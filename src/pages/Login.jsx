@@ -120,6 +120,12 @@ function Login() {
             Login
           </button>
 
+          <div className="demo-login">
+            <strong>Demo Login</strong>
+            <p>Name: Seisa</p>
+            <p>Membership ID: L001</p>
+          </div>
+
           <p className="register-message">
             New to the system? Approach our
             friendly librarian to register you.

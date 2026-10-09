@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
@@ -32,7 +32,7 @@ function ProtectedRoute({ children, role }) {
 
 function App() {
   return (
-    <BrowserRouter basename="/mountain-library">
+    <HashRouter>
       <Routes>
 
         {/* Login */}
@@ -83,7 +83,7 @@ function App() {
         />
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

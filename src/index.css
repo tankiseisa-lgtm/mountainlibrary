@@ -318,3 +318,22 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+.demo-login {
+  background: #f5f1e8;
+  border: 1px solid #ddd5c8;
+  padding: 12px;
+  margin-top: 18px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.demo-login strong {
+  color: #183a2b;
+}
+
+.demo-login p {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #555;
+}
